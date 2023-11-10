@@ -11,7 +11,7 @@ const clusterName = process.env.DB_CLUSTERNAME || '';
 const dbName = process.env.DB_NAME || '';
 
 // Cloud DB Connection
-const cloudUrl = `mongodb+srv://${username}:${password}@${clusterName}/logindb?retryWrites=true&w=majority`;
+const cloudUrl = `mongodb+srv://kokilar:wVqjZF0Me3s579Sw@cluster0.zjauhk2.mongodb.net/logindb?retryWrites=true&w=majority`;
 
 const connectToDb = async () => {
   try {
